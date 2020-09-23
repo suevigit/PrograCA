@@ -25,7 +25,7 @@ SECRET_KEY = 'o=cxp!1)g95@-68w%7+sa6ckx1r5w5hvfv)@6o9hj0miu*xuu@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','suevi1.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','suevi1.pythonanywhere.com', 'href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"', 'src="https://code.jquery.com/jquery-3.5.1.slim.min.js"', 'src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"', 'src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"',]
 
 
 # Application definition
