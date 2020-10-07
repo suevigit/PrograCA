@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+            {% for publicacion in publicaciones %}
+                <div class="post">
+                    <h2><a href="{% url 'publicacion_detalle' pk=publicacion.pk %}">{{ publicacion.titulo }}</a></h2>
+                    <p>{{ publicacion.texto|truncatechars:200}}</p>
+                </div>
+            {% endfor %}
+{% endblock %}
